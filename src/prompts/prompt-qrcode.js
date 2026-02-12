@@ -4,6 +4,9 @@ const promptQRCode = [
   {
     name: "link",
     description: chalk.blue("Digite o link para gerar o QR code"),
+    pattern: /^(ftp|http|https):\/\/[^ "]+$/,
+    message: chalk.red.bold("Digite um link válido"),
+    required: true
   },
   {
     name: "type",

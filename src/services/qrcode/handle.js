@@ -1,5 +1,5 @@
-import prompt from "prompt";
-import promptQRCode from "../../prompts/prompt-qrcode.js";
+// import prompt from "prompt";
+// import promptQRCode from "../../prompts/prompt-qrcode.js";
 import qr from "qrcode-terminal";
 import chalk from "chalk";
 
